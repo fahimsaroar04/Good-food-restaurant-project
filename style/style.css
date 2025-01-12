@@ -7,7 +7,7 @@
     text-align: center;
 
 }
-.btn-container .btn{
+.btn{
     padding: 16px 20px 16px 20px;
     color: rgb(255, 255, 255);
     font-family: Work Sans;
@@ -19,6 +19,7 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 }
 #hero{
     background: linear-gradient(
@@ -30,7 +31,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 735px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,4 +76,87 @@
     letter-spacing: 0%;
     text-align: center;
     margin-bottom:29px;
+}
+#card-box{
+    width: 1056px;
+    height: 696px;
+    margin: 100px auto;
+
+}
+
+#card-box .subtitle{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center; 
+    margin-bottom: 16px;
+    
+} 
+.hadding{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 691px;
+    height: 128px;
+    margin: 0 auto;
+}
+.card-container{
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    
+    
+} 
+.card .img-box{
+    width: 300px;
+}
+.card .img-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 10px 22px 10px 22px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+.pizza{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.had{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 33px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+}
+.watch-btn-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
